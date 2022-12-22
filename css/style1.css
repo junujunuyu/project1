@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+@import url('./reset.css');
+
+
+/* 공통속성 */
+.container{width: 1500px;height: inherit;margin: 0 auto;}
+body{width: 100%;}
+#section{width: 100%;}
+#footer{width: 100%;}
+
+/* header */
+#wrap{width: 100%;}
+#wrap {width: 100%;height: 180px;position: relative;}
+#wrap #headLogin{width: 100%;height: 50px;background: rgb(16, 16, 31);}
+#wrap #headLogin .headright{position: absolute; top: 0;right: 500px;}
+#wrap #headLogin .headright1{position: absolute; top: 3px;right: 50px;}
+#wrap #headLogin label{color: #fff; padding: 0 20px;margin-top: 15px;font-weight: bold;display: inline-block;background-position: 0 100px;}
+#wrap #headLogin label:hover{color: #196ab3;text-decoration: underline;}
+#wrap #headLogin input{display: block;padding: 10px 15px;margin-top: 3px;float: left;}
+#wrap #headLogin button{background: #196ab3;padding: 10px 15px;color: #fff;margin-top: 5.5px;cursor: pointer;margin-left: 5px;}
+
+/* header bottom ul nav bg*/
+#header h1{float: left;}
+#header h1>a>img{margin-top: 50px;}
+#header #nav{float: right; z-index: 999; width:1000px; height: 100px}
+#header #nav .bg{background: #D5E2DF;position: absolute;width: 100%;height: 285px;top: 150px;display: none; left: 0; z-index: 9999;}
+#header #nav:hover .bg{display: block;}
+#header #nav:hover .bg>a{display: block;}
+#header #nav .bg>span{position: absolute;top: 100px;left: 300px;width: 100%;height: 500px;background: url(../img/lnb_bg.png) no-repeat;}
+#header #nav>ul{font-size: 2em;margin-top: 50px;}
+#header #nav>ul>li{float: left;margin-right: 80px;}
+#header #nav>ul>li:nth-child(1):after{content:"●";font-size: 10px;position: relative;bottom: 45px;left: 160px;}
+#header #nav>ul>li:nth-child(2):after{content:"●";font-size: 10px;position: relative;bottom: 45px;left: 135px;}
+#header #nav>ul>li:nth-child(3):after{content:"●";font-size: 10px;position: relative;bottom: 45px;left: 135px;}
+#header #nav>ul>li:nth-child(4):after{content:"●";font-size: 10px;position: relative;bottom: 45px;left: 135px;}
+#header #nav>ul>li>a:hover{color: #3410ff;text-decoration: underline;}
+#header #nav>ul>li>a{display: block;}
+#header #nav>ul>li>ul{display: none;position: absolute;z-index: 99999;text-align: center;}
+#header #nav>ul:hover>li>ul{display: block;width: 180px;}
+#header #nav>ul>li>ul>li{background: #D5E2DF;position: relative;top: 11px;left: -33px;}
+#header #nav>ul>li>ul>li>a{display: block;text-align: center;font-size: 12px;}
+#header #nav>ul>li>ul>li>a:hover{color: #3410ff;text-decoration: underline;}
+/* section */
+#section img{width: 100%;height: 300px;}
+#section .letter h2{position: absolute;top: 250px;right: 150px;font-size: 3em;color: #fff;font-weight: bold;}
+#section .letter p{position: absolute;top: 300px;right: 150px;font-size: 1.5em;color: #fff;}
+#section .letter em{position: absolute;top: 320px;right: 150px;font-size: 1.5em;color: #fff;}
+
+/* section1 */
+.section1{float: left;}
+.section1 .introduce{float: left;width: 30%;}
+.section1 .introduce ul{padding:0 40px;margin-top:-25px;}
+.section1 .introduce h2{width: 300px;height: 50px;background:#156856;line-height: 50px;padding-left: 30px;box-sizing: border-box;font-size: 1.5em;color: #fff;}
+.section1 .introduce ul li{width: 300px;height: 30px;background:#107861;line-height: 1px;font-size: 1.1em;border: 1px solid #ddd;box-sizing: border-box;padding: 20px 0px 20px 30px;}
+.section1 .introduce>ul>li>.notice1{text-decoration: underline;color: #fff;}
+.section1 .introduce ul li:hover a{text-decoration: underline;color: #ddd;}
+
+/* section1 section group1 */
+.section1{} 
+.section1 .sectiongroup{width: 70%;float: left;}
+.section1 .sectiongroup .group1{width: 100%;overflow: hidden;}
+.section1 .sectiongroup .group1 h3{float: left;font-size: 2.5em;}
+.section1 .sectiongroup .group1 .notice{width: 1000px;height: 20px;margin-left: 830px;margin-top: 30px;}
+.section1 .sectiongroup .group1 .notice a{display:block;float: left;padding-left: 10px;font-size: 1.2em;}
+.section1 .sectiongroup .group1 .notice a img{}
+.section1 .sectiongroup .group1 .notice a span{}
+
+
+/* section1 section group2 */
+.section1 .sectiongroup .group2{overflow: hidden;}
+.section1 .sectiongroup .group2 form{float: left;height: 50px;width: 100%;}
+.section1 .sectiongroup .group2 form fieldset{width: 1045px;height: 40px;;line-height: 40px;}
+.section1 .sectiongroup .group2 form p{float: left;padding-left: 20px;margin-right: 330px;}
+.section1 .sectiongroup .group2 form fieldset p{font-size: 19px;font-weight: bold;}
+.section1 .sectiongroup .group2 form select{background: #f2f5f8;font-size: 1.3em;padding-bottom: 1.5px;}
+.section1 .sectiongroup .group2 form fieldset input{width: 120px;height: 20px;line-height: 20px;padding-top: 3px;}
+.section1 .sectiongroup .group2 form fieldset button{background: #196ab3;color: #fff;cursor: pointer;height: 27px;line-height: 27px;width: 70px;padding-top: 1.2px;}
+
+/* section1 section group3 */
+.section1 .sectiongroup .group3{}
+.section1 .sectiongroup .group3 table{width: 100%;height: 50px;border: 1px solid #ddd;border-collapse: collapse;}
+.section1 .sectiongroup .group3 table tr th{text-align: center;border: 1px solid #ddd;padding: 5px;}
+.section1 .sectiongroup .group3 table tr td{text-align: center;border: 1px solid #ddd;}
+.section1 .sectiongroup .group3 table tr td:nth-child(2){height: 50px;text-align: left;padding-left: 10px;}
+
+
+/* section1 section group4 */
+.section1 .sectiongroup .group4{float: left;}
+.section1 .sectiongroup .group4 ul{width: 100%; height: 50px;padding-left: 250px;margin-top: 10px;}
+.section1 .sectiongroup .group4 ul li{float: left;width: 32px;height: 32px;border: 2px solid #ddd;text-align: center;line-height: 32px;margin-right: 3px;}
+.section1 .sectiongroup .group4 ul li a{display: block;}
+.section1 .sectiongroup .group4 ul li:nth-child(1){background: url(../img/bg_page.png) 10px 12px no-repeat;}
+.section1 .sectiongroup .group4 ul li:nth-child(2){background: url(../img/bg_page.png) -70px no-repeat;}
+.section1 .sectiongroup .group4 ul li:nth-child(13){background: url(../img/bg_page.png) -108px no-repeat;}
+.section1 .sectiongroup .group4 ul li:nth-child(14){background: url(../img/bg_page.png) -31px no-repeat;}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+#footer{float: left;}
+#footer .footerHeader1{background: #666666;}
+#footer .footerHeader1 .header1 a{font-size: 1.8em;color: #fff;display: inline-block;margin-right: 15px;padding: 10px 0;}
+#footer .footerBottom1{background: #3e3e3e;padding-top: 10px;}
+#footer .footerBottom1 .bottom1 em{font-size: 1em;color: #b0b0b0;display: block;}
+#footer .footerBottom1 .bottom1 address{font-size: 1em;color: #b0b0b0;display: block;}

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산림교육원</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=6c3d51f0077da3dad603e143c2df22d7"></script>
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <div id="wrap">
+        <form action="#"method="post"name="headLogin"id="headLogin">
+            <fieldset>
+                <legend></legend>
+                    <div id="headLogin">
+                        <div class="headright">
+                            <label for="login_id"> 로그인</label>
+                            <label for="login_join">회원가입</label>
+                            <label for="find_id">아이디/패스워드찾기</label>
+                        </div>
+                        <div class="headright1">
+                            <input type="text"name="password"value="아이디">
+                            <input type="text"name="id" value="비밀번호">
+                            <button type="submit"value="로그인">로그인</button> 
+                        </div>  
+                    </div>
+            </fieldset>
+        </form>
+        <header id="header">
+            <div class="container cf">
+                <h1><a href="#"><img src="./img/logo.png" alt="logo"></a></h1>
+                <nav id="nav">
+                    <div class="bg"><span></span></div>
+                    <ul class="list">
+                        <li><a href="file:///D:/YUJUNU/my_portfolio/Forest_221128/index1.html"title="교육원소개">교육원소개</a>
+                            <ul>
+                                <li><a href="file:///D:/YUJUNU/my_portfolio/Forest_221128/index1.html"title="공지사항">공지사항</a></li>
+                                <li><a href="#"title="산림교육원소식지">산림교육원소식지</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="file:///C:/Users/pc00/Desktop/Forest_221128/index2.html"title="교육안내">교육안내</a>
+                            <ul>
+                                <li><a href="file:///C:/Users/pc00/Desktop/Forest_221128/index2.html"title="교육계획">교육계획</a></li>
+                                <li><a href="#"title="교육과정자료">교육과정자료</a></li>
+                                <li><a href="#"title="산림일자리교육정보">산림일자리교육정보</a></li>
+                                <li><a href="#"title="교육과정소개(링크)">교육과정소개(링크)</a></li>
+                                <li><a href="#"title="사이버교육(링크)">사이버교육(링크)</a></li>
+                                <li><a href="#"title="과정자료게시판">과정자료게시판</a></li>
+                                <li><a href="#"title="자주묻는질문(FAQ)">자주묻는질문(FAQ)</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="file:///C:/Users/pc00/Desktop/Forest_221128/index3.html"title="이용안내">이용안내</a>
+                            <ul>
+                                <li><a href="file:///C:/Users/pc00/Desktop/Forest_221128/index3.html"title="교육계획">회원가입 방법</a></li>
+                                <li><a href="#"title="교육과정자료">교육신청 방법</a></li>
+                                <li><a href="#"title="산림일자리교육정보">수료증 및 영수증 출력방법</a></li>
+                                <li><a href="#"title="교육과정소개(링크)">생활관신청 및 교육비 납부 방법</a></li>
+                                <li><a href="#"title="사이버교육(링크)">기관 담당자 교육 신청방법</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="file:///C:/Users/pc00/Desktop/Forest_221128/index4.html"title="교육신청">교육신청</a>
+                            <ul>
+                                <li><a href="file:///C:/Users/pc00/Desktop/Forest_221128/index4.html"title="교육신청">교육신청</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="file:///C:/Users/pc00/Desktop/Forest_221128/index4.html"title="마이페이지">마이페이지</a>
+                            <ul>
+                                <li><a href="file:///C:/Users/pc00/Desktop/Forest_221128/index4.html"title="지난수강정보">지난수강정보</a></li>
+                                <li><a href="#"title="현재수강정보">현재수강정보</a></li>
+                                <li><a href="#"title="개인정보">개인정보</a></li>
+                            </ul>
+                        </li>    
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="content">
+            <section id="section">
+                <div class="letter">
+                    <img src="./img/main_bg.png" alt="산림교육원정보시스템">
+                    <p>지속가능한 산림을 디자인하는 미래인재 양성 <br>forstering future  human resources to <br>desing sustainable forests</p>
+                </div>
+            </section>
+            <div id="section1">
+                <div class="container">
+                    <div class="mainbanner">
+                        <ul class="cf">
+                            <li>
+                                <h3>교육신청</h3>
+                                <span><img src="./img/m_icon1.png" alt="교육신청"></span>
+                                <a href="#">산림교육원 정보시스템의 <br> 교육신청입니다.</a>
+                            </li>
+                            <li>
+                                <h3>공지사항</h3>
+                                <span><img src="./img/m_icon1.png" alt="교육신청"></span>
+                                <a href="#">산림교육원 정보시스템의 <br> 소식을 전해드립니다.</a>                               
+                            </li>
+                            <li>
+                                <h3>교육계획</h3>
+                                <span><img src="./img/m_icon1.png" alt="교육신청"></span>
+                                <a href="#">산림교육원 다양한 <br> 교육계획을 안내합니다.</a>                               
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="section2">
+                <div class="container">
+                    <div class="left">
+                        <h3>공지사항</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">임도공학전문가과정(10.17~10.28) 입교 안내<em>2022-10-12</em></a>
+                                </li>
+
+                                <li>
+                                    <a href="#">제4기 산불예방및진화과정 (10.19~10.21) 교육 안내<em>2022-10-12</em></a>
+                                </li>
+
+                                <li>
+                                    <a href="#">메타버스로 숲을 배달해 드려요<em>2022-03-24</em></a>
+                                </li>
+
+                                <li>
+                                    <a href="#">2022년 산림교육원 교육훈련계획<em>2022-03-08</em></a>
+                                </li>
+
+                                <li>
+                                    <a href="#">2022년 4월 교육훈련계획 및 교육생 선발 안내<em>2022-02-28</em></a>
+                                </li> 
+                            </ul>
+                        <p><a href="#">+ more</a></p>
+                    </div>
+                    <div class="right">
+                        <h3>산림교육원 소식지</h3>
+                            <ul>
+                                <li>
+                                    <span>
+                                        <img src="./img/pic1.png" alt="소식지">
+                                        <a href="#">2022년 산림교육원 소식지 11월호</a>
+                                        <em> 최고관리자 / 2022-11-01</em>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <img src="./img/pic1.png" alt="소식지">
+                                        <a href="#">2022년 산림교육원 소식지 10월호</a>
+                                        <em>최고관리자 / 2022-10-04</em>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <img src="./img/pic1.png" alt="소식지">
+                                        <a href="#">2022년 산림교육원 소식지 9월호</a>
+                                        <em>최고관리자 / 2022-09-08</em>
+                                    </span>                                  
+                                </li>
+                            </ul>
+                        <p><a href="#">+ more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div id="section3">
+                <div class="container">
+                        <div class="group">
+                            <div class="room">
+                                <ul>
+                                    <li class="big"><img src="./img/m_icon6.png" alt="recipt"><a href="#"><p>생활관 예약</p><em>생활관 예약을 위한 공간입니다.</em></a></li>
+                                    <li class="small"><a href="#">회원가입방법</a><img src="./img/m_bn1.png" alt="1"></li>
+                                    <li class="small"><a href="#">교육신청 방법</a><img src="./img/m_bn4.png" alt="4"></li>
+                                </ul>
+                            </div>
+                            <div class="recipt">
+                                <ul>
+                                    <li class="big"><img src="./img/m_icon7.png" alt="recipt"><a href="#"><p>수료증 및 영수증 출력</p><em>수료증과 영수증 출력을 위한 공간입니다.</em></a></li>
+                                    <li class="small"><a href="#">생활관신청 및 교육비납부 방법</a><img src="./img/m_bn2.png" alt="2"></li>
+                                    <li class="small"><a href="#">수료증 및 영수증 출력방법</a><img src="./img/m_bn5.png" alt="5"></li>
+                                </ul>
+                            </div>
+                            <div class="map">
+                                <ul>
+                                    <li class="big"><img src="./img/m_icon8.png" alt="map"><a href="#"><p>찾아오시는길</p><em>신림교육원 정보시스템에 오시는 길을 안내합니다.</em></a></li>
+                                    <li class="small"><a href="#">기관담당자 교육신청 방법</a><img src="./img/m_bn3.png" alt="3"></li>
+                                    <li class="small"><a href="#">사이버교육(링크)</a><img src="./img/m_bn6.png" alt="6"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div id="section4">
+                <div class="container">
+                    <div class="left1">
+                        <h3>월별교육과정[11월]</h3>
+                            <ul>
+                                <li>
+                                    <span>[전문교육] 산림경영계획과정(2차시)</span><em>2022-11-02 - 2022-11-04</em>
+                                </li>
+
+                                <li>
+                                    <span>[시책교육] 산지정보시스템운영과정(3차시)</span><em>2022-11-03 - 2022-11-04</em>
+                                </li>
+
+                                <li>
+                                    <span>[전문교육] 재난안전실무자과정(2차시)</span><em>2022-11-03 - 2022-11-04</em>
+                                </li>
+
+                                <li>
+                                    <span>[전문교육] 핵심가치과정(5차시)</span><em>2022-11-07 - 2022-11-08</em>
+                                </li>
+
+                                <li>
+                                    <span>[전문교육] 목조주택이해과정(3차시)</span><em>2022-11-07 - 2022-11-11</em>
+                                </li> 
+                            </ul>
+                        <p><a href="#">+ more</a></p>
+                    </div>
+                    <div class="right1">
+                        <h3>팝업존</h3>
+                        <div class="slideArea">
+                            <h2 class="ir_so">서비스안내슬라이드</h2>
+                            <ul class="slideList">
+                                <li><a href="#"><img src="./img/displayImage 1.jpg" alt="mainslide1"></a></li>
+                                <li><a href="#"><img src="./img/displayImage 2.jpg" alt="mainslide2"></a></li>
+                                <li><a href="#"><img src="./img/displayImage 3.jpg" alt="mainslide3"></a></li>
+                                <li><a href="#"><img src="./img/displayImage 4.jpg" alt="mainslide4"></a></li>
+                                <li><a href="#"><img src="./img/displayImage 5.jpg" alt="mainslide5"></a></li>
+                            </ul>
+                            <div class="controlArea">
+                                <!-- a href="javascript:는 #상단으로 가는걸 막아준다. -->
+                                <a href="javascript:" class="btnSlideprev"><span class="ir_pm">이전 서비스 보기</span></a>
+                                <a href="javascript:" class="btnSlidepp"><span class="ir_pm">재생/정지</span></a>
+                                <a href="javascript:" class="btnSlideNext"><span class="ir_pm">다음서비스보기</span></a>
+                            </div>
+                            <div class="pagerwrap">
+                                <a href="#" class="pager on"><span></span></a>
+                                <a href="#" class="pager"><span></span></a>
+                                <a href="#" class="pager"><span></span></a>
+                                <a href="#" class="pager"><span></span></a>
+                                <a href="#" class="pager"><span></span></a>
+                            </div>
+                            <div class="play_stop">
+                                <a href="#" class="play"><img src="./img/pz_play.png" alt="play"></a>
+                                <a href="#" class="stop"><img src="./img/pz_stop.png" alt="stop"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="section5">
+                <div class="container">
+                    <div id="map" style="width:100%;height:400px;"></div>
+
+                </div>
+            </div> <!-- 로드뷰를 표시할 div 입니다 -->
+            <script>
+                var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+                mapCenter = new kakao.maps.LatLng(37.7318232, 127.1719991), // 지도의 중심좌표
+                mapOption = {
+                    center: mapCenter, // 지도의 중심좌표
+                    level: 3 // 지도의 확대 레벨
+                };
+
+                var map = new kakao.maps.Map(mapContainer, mapOption);
+
+                var content = '<div class="overlay_info">';
+                content += '    <a href="https://place.map.kakao.com/10434947" target="_blank"><strong>산림청 산림교육원</strong></a>';
+                content += '    <div class="desc">';
+                content += '        <img src="" alt="">';
+                content += '        <span class="address">경기도 남양주시 진접읍 장현천로 197(구, 장현리 465-2)</span>';
+                content += '    </div>';
+                content += '</div>';
+
+                // 커스텀 오버레이가 표시될 위치입니다  //로드뷰 찾을수 없음 업데이트 안함
+                /* var position = new kakao.maps.LatLng(37.7318232, 127.1719991); */
+
+                // 커스텀 오버레이를 생성합니다
+                var mapCustomOverlay = new kakao.maps.CustomOverlay({
+                    position: position,
+                    content: content,
+                    xAnchor: 0.5, // 커스텀 오버레이의 x축 위치입니다. 1에 가까울수록 왼쪽에 위치합니다. 기본값은 0.5 입니다
+                    yAnchor: 1.1 // 커스텀 오버레이의 y축 위치입니다. 1에 가까울수록 위쪽에 위치합니다. 기본값은 0.5 입니다
+                });
+
+                // 커스텀 오버레이를 지도에 표시합니다
+                mapCustomOverlay.setMap(map);
+
+                var rvContainer = document.getElementById('roadview'); //로드뷰를 표시할 div
+                var rv = new kakao.maps.Roadview(rvContainer); //로드뷰 객체
+                var rvClient = new kakao.maps.RoadviewClient(); //좌표로부터 로드뷰 파노ID를 가져올 로드뷰 helper객체
+
+                //지도의 중심좌표와 가까운 로드뷰의 panoId를 추출하여 로드뷰를 띄운다.
+                rvClient.getNearestPanoId(mapCenter, 50, function(panoId) {
+                    rv.setPanoId(panoId, mapCenter); //panoId와 중심좌표를 통해 로드뷰 실행
+                });
+
+                kakao.maps.event.addListener(rv, 'init', function() {
+
+                    // 커스텀 오버레이를 생성합니다
+                    var rvCustomOverlay = new kakao.maps.CustomOverlay({
+                        position: position,
+                        content: content,
+                        xAnchor: 0.5, // 커스텀 오버레이의 x축 위치입니다. 1에 가까울수록 왼쪽에 위치합니다. 기본값은 0.5 입니다
+                        yAnchor: 0.5 // 커스텀 오버레이의 y축 위치입니다. 1에 가까울수록 위쪽에 위치합니다. 기본값은 0.5 입니다
+                    });
+
+                    //rvCustomOverlay.setAltitude(2); //커스텀 오버레이의 고도값을 설정합니다.(로드뷰 화면 중앙이 0입니다)
+                    rvCustomOverlay.setMap(rv);
+
+                    var projection = rv.getProjection(); // viewpoint(화면좌표)값을 추출할 수 있는 projection 객체를 가져옵니다.
+
+                    // 커스텀오버레이의 position과 altitude값을 통해 viewpoint값(화면좌표)를 추출합니다.
+                    var viewpoint = projection.viewpointFromCoords(rvCustomOverlay.getPosition(), rvCustomOverlay.getAltitude());
+
+                    rv.setViewpoint(viewpoint); //커스텀 오버레이를 로드뷰의 가운데에 오도록 로드뷰의 시점을 변화 시킵니다.
+                });
+            </script>
+        </div>
+        <div id="footer">
+                <div class="footerHeader1">
+                    <div class="container">
+                        <div class="header1">
+                            <a href="#">이용약관</a>
+                            <a href="#">개인정보처리방침</a>
+                            <a href="#">찾아오시는길</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerBottom1">
+                    <div class="container">
+                        <div class="bottom1">
+                            <em>산림청 산림교육원   /   대표자 : 원장 이시혜   /   등록번호(사업자번호) : 132-83-04169   /   우)12006 경기도 남양주시 진접읍 장현천로 197   /   대표전화 : 031-570-7300   /   시스템 담당자 : 031-570-7332   /   FAX : 031-570-7317   /   E-mail : ybkim13@korea.kr</em>
+                            <em>산림보호교육(산불) : 031-570-7421~2   /   산림자원교육(임업후계자) : 031-570-7431~2   /    산림이용교육(산림복지) : 031-570-7441~2   /   수료증발급 및 기타교육 : 031-570-7413</em>
+                            <address>COPYRIGHT ⓒ 2016 산림청. ALL RIGHTS RESERVED</address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
