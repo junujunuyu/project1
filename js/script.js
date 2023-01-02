@@ -1,3 +1,22 @@
+/* 메뉴 슬라이더 유지*/
+$('#nav').hover(function(){
+    $(this).find('.bg').stop().animate({height:285},500);
+},function(){
+    $(this).find('.bg').stop().animate({height:0},500)
+});
+
+$('#nav').hover(function(){
+    $('#nav').find('.bg>span').stop().animate({height:300},500);
+},function(){
+    $('#nav').find('.bg>span').stop().animate({height:0},500)
+}); 
+
+$('#nav').hover(function(){
+    $('#nav').find('>ul>li>ul').stop().animate({height: '266px'},500)  
+},function(){
+    $('#nav').find('>ul>li>ul').stop().animate({height: '0'},500)  
+});
+
 
 
 
